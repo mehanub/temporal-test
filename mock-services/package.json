@@ -1,0 +1,13 @@
+{
+  "name": "mock-services",
+  "version": "1.0.0",
+  "scripts": {
+    "start:inventory": "node service1-inventory.js",
+    "start:payment": "node service2-payment.js",
+    "start:order": "node service3-order.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
